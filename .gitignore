@@ -1,1 +1,5 @@
-../zcash_service_status_dashboad/.gitignore
+.vscode/
+__pycache__/
+*.swp
+*.out
+*.log
