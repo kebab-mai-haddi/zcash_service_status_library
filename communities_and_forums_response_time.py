@@ -7,8 +7,8 @@ start_http_server(8096)
 
 def get_response_time(url):
     try:
-        return(requests.get(url).elapsed.total_seconds())
-    except requests.exceptions.ConnectionError:
+        return(requests.get(url, verify=False).elapsed.total_seconds())
+    except requests.exceptions.ConnectionError as e:
         return -1
 
 
