@@ -5,17 +5,22 @@ The health check system involves three tools: Prometheus, Blackbox Exporter and 
 
 ## 1. Install [Prometheus](https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04)
 Use the prometheus.yml file included in this repository for the config.
-### If on Mac, run the following:
+### For Docker:
+```
 docker run \
     -p 9090:9090 \
     -v /Users/aviralsrivastava/dev/zcash_service_status_library/prometheus.yml:/etc/prometheus/prometheus.yml \
     prom/prometheus
+```
 
 ## 2. Install [Grafana](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-grafana-on-ubuntu-18-04)
 
 
 ## 3. Install [Blackbox Exporter](https://www.digitalocean.com/community/tutorials/how-to-use-alertmanager-and-blackbox-exporter-to-monitor-your-web-server-on-ubuntu-16-04)
-
+### For Docker:
+```
+docker run --rm -d -p 9115:9115 --name blackbox_exporter -v `pwd`:/config prom/blackbox-exporter:master --config.file=/config/blackbox.yml
+```
 
 ## 4. Install Dependencies
 ```
