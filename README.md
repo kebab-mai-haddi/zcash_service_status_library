@@ -9,7 +9,7 @@ Use the prometheus.yml file included in this repository for the config.
 ```
 docker run \
     -p 9090:9090 \
-    -v /Users/aviralsrivastava/dev/zcash_service_status_library/prometheus.yml:/etc/prometheus/prometheus.yml \
+    -v <absolute path to the current directory>/prometheus.yml:/etc/prometheus/prometheus.yml \
     prom/prometheus
 ```
 
