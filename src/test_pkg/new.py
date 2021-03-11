@@ -1,0 +1,3 @@
+from communities_and_forums_response_time_lib import communities_and_forums_response_time
+
+print(communities_and_forums_response_time()) 
