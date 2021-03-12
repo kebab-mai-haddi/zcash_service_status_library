@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
-Name: zcash-resp-time-MANAN-MONGA
+Name: zcash-service-status-lib
 Version: 0.0.1
-Summary: A small example package
-Home-page: https://github.com/pypa/sampleproject
+Summary: A library to get zcash services status updates
+Home-page: https://github.com/kebab-mai-haddi/zcash_service_status_library
 Author: Manan Monga
-Author-email: author@example.com
-License: UNKNOWN
-Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
-Description: Testing how to package Python code with this sample of response_time results for Zcash
+Author-email: mananmonga@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kebab-mai-haddi/zcash_service_status_library/issues
+Description: Use this library function to get response time, conversion rates, and more related zcash data
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
