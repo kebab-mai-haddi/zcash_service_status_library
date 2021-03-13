@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: zcash-service-status
+Version: 0.1.1
+Summary: A Zcash service status library
+Home-page: https://github.com/kebab-mai-haddi/zcash_service_status_library
+Author: A. Srivastava, M. Monga
+Author-email: hi@avisri.com, mananmonga@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kebab-mai-haddi/zcash_service_status_library/issues
+Description: # Zcash Service Status Library
+        
+        Want to know about Zcash network and its services? Use this library!
+        ```
+        pip install zcash-service-status-MANAN-MONGA==0.0.1
+        from zcash_service_status import communities_and_forums_response_time
+        communities_and_forums_response_time.communities_and_forums_response_time()
+        ```
+        
+        
+Keywords: sample,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
