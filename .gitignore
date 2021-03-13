@@ -3,6 +3,6 @@ __pycache__/
 *.swp
 *.out
 *.log
-build/
-dist/
-src/zcash_service_status.egg-info/
+build
+dist
+src/zcash_service_status.egg-info
