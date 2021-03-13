@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zcash-service-status-lib
+Version: 0.0.1
+Summary: A library to get zcash services status updates
+Home-page: https://github.com/kebab-mai-haddi/zcash_service_status_library
+Author: Manan Monga
+Author-email: mananmonga@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kebab-mai-haddi/zcash_service_status_library/issues
+Description: Use this library function to get response time, conversion rates, and more related zcash data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
