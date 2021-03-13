@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-setup.cfg
-src/zcash_service_status/__init__.py
-src/zcash_service_status/communities_and_forums_response_time.py
-src/zcash_service_status_MANAN_MONGA.egg-info/PKG-INFO
-src/zcash_service_status_MANAN_MONGA.egg-info/SOURCES.txt
-src/zcash_service_status_MANAN_MONGA.egg-info/dependency_links.txt
-src/zcash_service_status_MANAN_MONGA.egg-info/top_level.txt
