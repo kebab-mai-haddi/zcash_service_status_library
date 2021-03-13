@@ -5,3 +5,4 @@ __pycache__/
 *.log
 build/
 dist/
+src/zcash_service_status.egg-info/
